@@ -1,0 +1,218 @@
+/* 通用樣式 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+/* 頁首樣式 */
+header {
+    background-color: #003366;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #003366;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    display: block;
+}
+
+nav ul li ul li a {
+    padding: 10px 20px;
+}
+
+/* 橫幅樣式 */
+.hero-banner,
+.contact-banner,
+.about-banner {
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    margin-top: 80px;
+}
+
+.hero-banner {
+    background-image: url('../images/banner.jpg');
+}
+
+.contact-banner {
+    background-image: url('../images/contact-banner.jpg');
+    height: 300px;
+}
+
+.about-banner {
+    background-image: url('../images/about-banner.jpg');
+    height: 300px;
+}
+
+.banner-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+/* 服務區域樣式 */
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.service-item {
+    flex: 1;
+    margin: 0 20px;
+    text-align: center;
+}
+
+/* 關於我們樣式 */
+.about-us {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #e0e0e0;
+}
+
+/* 聯絡我們樣式 */
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.info-item {
+    flex: 1;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.contact-form {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #e0e0e0;
+}
+
+.contact-form form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact-form label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #003366;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #002244;
+}
+
+/* 公司基本資料樣式 */
+.company-profile {
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.profile-table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 800px;
+}
+
+.profile-table th,
+.profile-table td {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.profile-table th {
+    background-color: #003366;
+    color: #fff;
+    font-weight: bold;
+}
+
+.profile-table td {
+    background-color: #fff;
+    color: #333;
+}
+
+/* 頁尾樣式 */
+footer {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
