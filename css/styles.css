@@ -114,6 +114,21 @@ nav ul li ul li a {
     margin: 0 20px;
     text-align: center;
 }
+/* 了解更多樣式 */
+.learn-more-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* 藍色背景 */
+    color: #ffffff; /* 白色文字 */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.learn-more-btn:hover {
+    background-color: #0056b3; /* 當鼠標懸停時的顏色 */
+}
 
 /* 關於我們樣式 */
 .about-us {
