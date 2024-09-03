@@ -223,6 +223,59 @@ nav ul li ul li a {
     color: #333;
 }
 
+
+.pre-footer {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pre-footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* 每個鏈接之間的間距 */
+    flex: 1;
+    margin-right: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: #0056b3;
+}
+
+.contact-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact-info p {
+    margin: 0;
+    font-size: 1em;
+}
+
+
 /* 頁尾樣式 */
 footer {
     background-color: #003366;
